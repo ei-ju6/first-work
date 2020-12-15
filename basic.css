@@ -1,6 +1,24 @@
-h1{text-align: center}
+h1{text-align: center;
+    position: relative;
+}
+h1.network:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    display:inline-block;
+    width:186px;
+    height:2px;
+    background-color: darkgreen;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+}
+p.hello{
+    color:darkmagenta;
+}
 html{background-color: aquamarine}
 body{background-color: aliceblue;
     font-family: "FuturaPTWebBook",Georgia,"Times New Roman",Times,serif;
-
+    padding: 15px 20px 20px;
+    position: relative;
 }
