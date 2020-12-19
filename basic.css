@@ -16,6 +16,9 @@ h1.network:before{
 p.hello{
     color:darkmagenta;
 }
+img{
+    eidth:700px;
+}
 html{background-color: aquamarine}
 body{background-color: aliceblue;
     font-family: "FuturaPTWebBook",Georgia,"Times New Roman",Times,serif;
