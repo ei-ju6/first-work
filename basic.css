@@ -24,4 +24,6 @@ body{background-color: aliceblue;
     font-family: "FuturaPTWebBook",Georgia,"Times New Roman",Times,serif;
     padding: 15px 20px 20px;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
