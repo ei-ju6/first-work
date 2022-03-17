@@ -163,11 +163,11 @@ window.onload = function(){
 
         var createGameoverScene = function(){
             var scene = new Scene()
-            var label = new Label(`Game Over<br>Please click to try again`)
+            var label = new Label(`Game Clear<br><br>Please click to try again`)
             label.x = 40
             label.y = 20
-            label.color = 'white'
-            scene.backgroundColor = 'rgba(0,0,0,0.7)'
+            label.color = 'red'
+            scene.backgroundColor = 'rgba(255,255,0,0.7)'
             scene.addChild(label)
             scene.addEventListener(Event.TOUCH_START, function(e){
 
