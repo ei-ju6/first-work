@@ -20,7 +20,7 @@ window.onload = function(){
 
         var createTitleScene = function(){
             var scene = new Scene()
-            var label = new Label('bear story<br><br>～果てしなき戦い～')
+            var label = new Label('bear<br><br>試作品')
 
             label.textAlign = "center";
             label.y = 60;
@@ -129,7 +129,7 @@ window.onload = function(){
                 this.rotate(4)
             })
             var enemies = [];
-            for (var i = 0; i < 50; i++){
+            for (var i = 0; i < 25; i++){
                 enemies[i] = new Enemy(rand(320), rand(320))
             }
             /*
